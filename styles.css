@@ -1,0 +1,31 @@
+
+.container {
+  max-width: 480px;
+}
+
+.logocontainer {
+display: flex;
+flex-direction: column;
+}
+
+img {
+  align-self: center;
+  height: 300px;
+  width: 300px;
+}
+
+h1 {
+  align-self: center;
+}
+
+#contactinfo {
+  align-self: center;
+}
+
+#image1 {
+  background-image: url('https://unsplash.com/photos/tG36rvCeqng');
+}
+
+#missState {
+  display: none;
+}
