@@ -1,3 +1,4 @@
+
 .container {
   max-width: 480px;
 }
@@ -17,11 +18,14 @@ h1 {
   align-self: center;
 }
 
-
-
-
-
-
 #contactinfo {
   align-self: center;
+}
+
+#image1 {
+  background-image: url('https://unsplash.com/photos/tG36rvCeqng');
+}
+
+#missState {
+  display: none;
 }
