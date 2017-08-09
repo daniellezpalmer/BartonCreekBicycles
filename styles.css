@@ -1,3 +1,5 @@
+/*font-family: 'Amatic SC', cursive;
+font-family: 'Rokkitt', serif;*/
 
 .container {
   margin: 20px 20px;
@@ -10,8 +12,8 @@
 }
 
 .logocontainer {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #compinfo {
@@ -19,7 +21,7 @@ flex-direction: column;
   flex-basis: 100%;
 }
 
-img {
+.logo {
   padding-top: 20px;
   height: 200px;
   width: 200px;
@@ -27,32 +29,37 @@ img {
 }
 
 h1 {
-
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
 }
 
 #contactInfo {
-border-top: solid 2px black;
-flex-basis: 100%;
+  border-top: solid 2px black;
+  flex-basis: 100%;
+  font-family: 'Rokkitt', serif;
 }
 
 #established {
-
-border-top: solid 2px black;
-flex-basis: 100%;
-
-
-}
-
-.bikeImages {
-}
-
-#footer {
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Rokkitt', serif;
   border-top: solid 2px black;
   flex-basis: 100%;
 }
 
+.bikeImages {}
+
+#footer {
+  border-top: solid 2px black;
+  flex-basis: 100%;
+  font-family: 'Rokkitt', serif;
+}
+
 #image1 {
-  background-image: url('https://unsplash.com/photos/tG36rvCeqng');
+  border-top: solid 2px black;
+  height: 300px;
+  width: 300px;
 }
 
 #missState {
