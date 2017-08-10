@@ -134,7 +134,9 @@ height: 200px;
 /*width: 356px;*/
 /*flex-grow: 100%;*/
 max-width: 480px;
-width: 100%;
+  width: 100%;
+ 
+
 background-size: contain;
 background-position: center;
 padding: 5px;
@@ -142,6 +144,7 @@ margin: -5px;
 
 
 }
+
 
 .salespitch{
   display:block;
