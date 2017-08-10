@@ -58,17 +58,55 @@ h1 {
   font-family: 'Rokkitt', serif;
 }
 
-img {
+#img1 {
 
   height: 200px;
-  width: 356px;
-  /*flex-basis: 100%;*/
+  /*width: 356px;*/
+  /*flex-grow: 100%;*/
+  max-width: 480px;
+  width: 100%;
   background-size: contain;
   background-position: center;
   padding: 5px;
   margin: -5px;
 }
 
+#img2 {
+  display: none;
+}
+
+#img3 {
+  display:none;
+}
+
 #missState {
   display: none;
+}
+
+
+
+@media only screen and (min-width: 480px) {
+
+img {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  f
+}
+
+#img1 {
+  display: inline-block;
+
+}
+
+#img2 {
+display: inline-block;
+width: 100%;
+}
+
+#img3 {
+display: inline-lock;
+width: 100%;
+flex-basis:30%;
+}
+
 }
